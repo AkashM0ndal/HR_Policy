@@ -1,7 +1,12 @@
 # install libraries
 numpy
-ipykernal
 python-dotenv
+ipykernel
+
+# data loaders
+pypdf
+pymupdf
+langchain-text-splitters
 
 
 # langchain libraries
@@ -10,8 +15,10 @@ langchain-core
 langchain-community
 
 
+
 # 
 langchain-groq
+
 
 
 

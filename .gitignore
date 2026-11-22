@@ -1,0 +1,5 @@
+.venv
+ipykernal
+uv.lock
+.env
+pyproject.toml

@@ -1,0 +1,17 @@
+# install libraries
+numpy
+ipykernal
+python-dotenv
+
+
+# langchain libraries
+langchain
+langchain-core
+langchain-community
+
+
+# 
+langchain-groq
+
+
+

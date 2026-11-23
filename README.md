@@ -286,6 +286,10 @@ This project demonstrates practical implementation of:
 
 ## 👨‍💻 Author
 
+- Name: Akash Mondal
+- email: skyakash.ml@gmail.com
+- Contact No.: +91 9083666706
+
 Developed as a hands-on project to understand and implement Retrieval-Augmented Generation, LangChain, vector databases, embeddings, and AI Agents.
 
 ---

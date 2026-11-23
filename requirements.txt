@@ -9,16 +9,22 @@ pymupdf
 langchain-text-splitters
 
 
-# langchain libraries
+# langchain framework
 langchain
 langchain-core
 langchain-community
 
 
-
 # 
 langchain-groq
 
+# Embedding Model 
+langchain_huggingface 
 
 
+# Vector Store model
+faiss-cpu
+
+
+# AI Agent
 

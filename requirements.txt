@@ -25,7 +25,3 @@ langchain_huggingface
 # Vector Store model
 faiss-cpu
 
-
-# AI Agent
-langchain-Agent
-

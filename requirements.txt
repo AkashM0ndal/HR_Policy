@@ -25,3 +25,6 @@ langchain_huggingface
 # Vector Store model
 faiss-cpu
 
+# fronted UI
+streamlit
+

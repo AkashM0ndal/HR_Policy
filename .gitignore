@@ -3,3 +3,7 @@ ipykernal
 uv.lock
 .env
 pyproject.toml
+
+
+
+Data/faiss_index/

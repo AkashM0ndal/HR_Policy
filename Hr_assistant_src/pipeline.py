@@ -39,22 +39,19 @@ def build_vector_store_for_documents(file_path: str= config.DATA_FILE_PATH):
 
 
 
-
 def build_hr_assistant(file_path: str= config.DATA_FILE_PATH):
     """Build the full RAG agent, ready to answer questions."""
 
     config.check_api_keys()
 
-    vector_store= build_vector_store(file_path)
-    retriever= get_retriever(vector_store)
-    search_tool= create_search_tool(retriever)
+    vector_store = build_vector_store_for_documents(file_path)
+    retriever = get_retriever(vector_store)
+    search_tool = create_search_tool(retriever)
 
-
-    llm= get_llm()
-    agent= create_hr_agent(llm, [search_tool])
+    llm = get_llm()
+    agent = create_hr_agent(llm, [search_tool])
 
     return agent
-
 
 
 
@@ -62,7 +59,7 @@ def ask(agent, question: str) -> str:
     """Ask the final question and return its final answer as plain text."""
 
     response= agent.invoke({'messages': [{'role': 'user', 'content': question}]})
-    return response['message'][-1].content
+    return response['messages'][-1].content
 
 
 

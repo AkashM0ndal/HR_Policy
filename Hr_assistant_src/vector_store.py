@@ -5,7 +5,7 @@ import os
 from langchain_community.vectorstores import FAISS
 from Hr_assistant_src import config
 from Hr_assistant_src.embeddings import get_embedding_model
-
+from langchain_core.documents import Document
 
 # Build Vector Store
 

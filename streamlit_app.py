@@ -5,6 +5,11 @@ Run with: streamlit run app.py"""
 import streamlit as st
 from Hr_assistant_src.pipeline import ask, build_hr_assistant
 
+groq_api_key = st.secrets["GROQ_API_KEY"]
+
+jina_api_key= st.secrets['JINA_API_KEY']
+
+
 st.set_page_config(page_title="HR Policy Assistant", page_icon="🤖")
 st.title("🤖 HR Policy Assistant")
 st.caption("Ask me anything about the company HR Policy document.")

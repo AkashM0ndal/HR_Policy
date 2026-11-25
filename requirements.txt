@@ -28,3 +28,6 @@ faiss-cpu
 # fronted UI
 streamlit
 
+
+
+

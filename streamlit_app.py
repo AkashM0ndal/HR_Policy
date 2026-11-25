@@ -11,7 +11,7 @@ jina_api_key= st.secrets['JINA_API_KEY']
 
 
 st.set_page_config(page_title="HR Policy Assistant", page_icon="🤖")
-st.title("🤖 HR Policy Assistant")
+st.title("🤖HR Policy Assistant")
 st.caption("Ask me anything about the company HR Policy document.")
 
 

@@ -7,3 +7,5 @@ pyproject.toml
 
 
 Data/faiss_index/
+
+.streamlit/secrets.toml
